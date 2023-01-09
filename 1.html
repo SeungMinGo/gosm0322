@@ -1,22 +1,73 @@
 <html>
     <head>
-        <title>고승민</title>
+        <title>SHIFT3_승민</title>
         <meta charset="utf-8">
+        <style>
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            h1 {
+                background: #001c63;
+                border-width: 5px;
+                
+                border-style: solid;
+                font-size: 60px;
+                text-align: start;
+                padding: 30px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+                border-bottom: 1px solid gray;
+            }
+            
+            .title{
+                color: white;
+            }
+            #grid ul{
+                font-size: 25px;
+                border-right: 1px solid gray;
+                width: 80px;
+                margin: 0px;
+                padding-left: 33px;
+                padding-top:15px;
+            }
+            body{
+                margin: 5px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+        </style>
     </head>
 
     <body>
-        <h1><a href="index.html">자기소개</a></h1>
-        <ol><li><a href="1.html">목차1</a></li>
-        <li><a href="2.html">목차2</a></li>
-        <li><a href="3.html">목차3</a></li></ol> 
+        <header>
+            <h1><a href="index.html" class="title">자기소개</a></h1>
+        </header>
+        
+        <div id="grid">
+            <ul>
+                <li><a href="1.html" >고승민</a></li>
+                <br>
+                <li><a href="2.html" >이기범</a></li>
+                <br>
+                <li><a href="3.html">안지민</a></li>
+            </ul>
+        
 
-        <h2>인적 사항</h2>
-        <p><img src="picture1.jpeg" width="400"></p>
-        1999.03.22. <strong>고승민</strong>
-        <p>순천향대학교 학번 <u>20181564</u></p>
-        <p>충청남도 아산시 탕정면로37 301동 402호</p>
-        <a href="https://www.instagram.com/rh.tmdals/" target="_blank" title="Instagram">
-        Instagram</a>
+            <main>
+                <h2>인적 사항</h2>
+                <p><img src="seungmin.jpeg" width="400"></p>
+                <strong>Go Seungmin 고승민</strong>
+                <p>gosm0322@gmail.com</p>
+                <p>순천향대학교 <u>스마트자동차학과</u></p>
+                <a href="https://www.instagram.com/rh.tmdals/" target="_blank" title="Instagram">
+                <img src="picture2.jpeg" width="20"> Instagram</a>
+            </main>
+        </div>
+            
+
     </body>
 
 </html>
