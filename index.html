@@ -2,21 +2,66 @@
     <head>
         <title>고승민</title>
         <meta charset="utf-8">
+        <style>
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            h1 {
+                background-color: navy;
+                border-width: 5px;
+                border-color: navy;
+                border-style: solid;
+                font-size: 60px;
+                text-align: start;
+                padding: 30px;
+                margin: 0px;
+                padding-left: 10px;
+                border-bottom: 1px solid gray;
+            }
+            .saw{
+                color:gray;
+            }
+            #active{
+                color:red;
+            }
+            .title{
+                color: white;
+            }
+            ul{
+                border-right: 1px solid gray;
+                width: 80px;
+                margin: 10px;
+                padding: 10px;
+            }
+            body{
+                margin: 5px;
+            }
+        </style>
     </head>
 
     <body>
-        <h1><a href="index.html">자기소개</a></h1>
-        <ol><li><a href="1.html">목차1</a></li>
-        <li><a href="2.html">목차2</a></li>
-        <li><a href="3.html">목차3</a></li></ol> 
+        <header>
+            <h1><a href="index.html" class="title">자기소개</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="1.html" class="saw">목차1</a></li>
+                    <li><a href="2.html" class="saw" id="active">목차2</a></li>
+                    <li><a href="3.html">목차3</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <h2>인적 사항</h2>
-        <p><img src="picture1.jpeg" width="400"></p>
-        1999.03.22. <strong>고승민</strong>
-        <p>순천향대학교 학번 <u>20181564</u></p>
-        <p>충청남도 아산시 탕정면로37 301동 402호</p>
-        <a href="https://www.instagram.com/rh.tmdals/" target="_blank" title="Instagram">
-        Instagram</a>
+        <main>
+            <h2>인적 사항</h2>
+            <p><img src="picture1.jpeg" width="400"></p>
+            1999.03.22. <strong>고승민</strong>
+            <p>순천향대학교 학번 <u>20181564</u></p>
+            <p>충청남도 아산시 탕정면로37 301동 402호</p>
+            <a href="https://www.instagram.com/rh.tmdals/" target="_blank" title="Instagram">
+            <img src="picture2.jpeg" width="20"> Instagram</a>
+        </main>
+
     </body>
 
 </html>
